@@ -1,0 +1,36 @@
+{
+    "name": "niladam/uri",
+    "description": "Manipulate and work with your URIs",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Madalin Tache",
+            "email": "niladam@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "symfony/var-dumper": "5.4",
+        "league/uri": "^6.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.65",
+        "phpunit/phpunit": "9.6.22"
+    },
+    "autoload": {
+        "psr-4": {
+            "Niladam\\Uri\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Niladam\\Uri\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "fix": "php-cs-fixer fix --config=.php-cs-fixer.php",
+        "test": "vendor/bin/phpunit --colors"
+    }
+}
