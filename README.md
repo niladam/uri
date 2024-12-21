@@ -2,6 +2,9 @@
 
 This PHP package provides a robust and flexible way to manipulate and handle URIs, including schemes, hosts, paths, queries, and fragments. It is built on top of `league/uri` and extends its functionality with an intuitive API and additional features like query string handling and fluent URI modification.
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/niladam/uri.svg?style=flat-square)](https://packagist.org/packages/niladam/uri)
+[![Total Downloads](https://img.shields.io/packagist/dt/niladam/uri.svg?style=flat-square)](https://packagist.org/packages/niladam/uri)
+
 ## Inspiration
 
 This package was inspired and is based on Laravel's Uri (`Illuminate\Support\Uri`) from Laravel 11. However, since Laravel 11 requires PHP 8, this package was created to provide similar functionality for PHP 7.4. Some pieces of code have been directly copied from Laravel's implementation to ensure compatibility and feature parity.
